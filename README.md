@@ -1,9 +1,9 @@
 # FastAPI_Test
 ## 1. 取得程式碼的檔案夾（語法適用Linux或MacOS）
-git clone <URL>
+git clone <https://github.com/codingjenny/FastAPI_Test.git>
 
 ## 2. 進入檔案夾
-cd <文件夾>
+cd <clone的檔案夾>
 
 ## 3. 使用 Dockerfile 構建 Docker Image
 docker build -t my-fastapi-app .
@@ -42,3 +42,6 @@ curl -I -X 'POST' \
 curl -I -X 'GET' \
   'http://localhost:8000/upload-records/?user=testuser' \
   -H 'Authorization: Bearer <token>'
+
+## 7. 進行測試
+### 在檔案夾所在位置打開終端機，輸入pytest，可進行測試
