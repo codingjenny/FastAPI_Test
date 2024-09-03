@@ -45,7 +45,7 @@ curl -i -X 'POST' \
 
 ### 使用獲取的 token 上傳文件（將 <token> 替換為實際的 access_token）
 ```bash
-curl -I -X 'POST' \
+curl -i -X 'POST' \
   'http://localhost:8000/uploadfile/' \
   -H 'Authorization: Bearer <token>' \
   -F 'file=@/path/to/your/file.zip'
@@ -53,7 +53,7 @@ curl -I -X 'POST' \
 
 ### 獲取上傳記錄，查詢特定使用者的上傳記錄（將 <token> 替換為實際的 access_token）
 ```bash
-curl -I -X 'GET' \
+curl -i -X 'GET' \
   'http://localhost:8000/upload-records/?user=testuser' \
   -H 'Authorization: Bearer <token>'
 ```
