@@ -1,5 +1,6 @@
 # FastAPI_Test
 ## 1. 取得程式碼的檔案夾（語法適用Linux或MacOS）
+```bash
 git clone <https://github.com/codingjenny/FastAPI_Test.git>
 
 ## 2. 進入檔案夾
